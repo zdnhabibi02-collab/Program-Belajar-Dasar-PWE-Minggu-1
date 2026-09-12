@@ -1,0 +1,115 @@
+/* Reset Dasar & Pengaturan Font Utama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    line-height: 1; /* Spasi 1 */
+}
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: darkgray;
+}
+.header {
+    background-color: #0461af;
+    color: white;
+    padding: 15px 20px;
+    height: 100px;
+}
+.header h1 {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.header p {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex: 1;
+}
+.sidebar-left, .sidebar-right {
+    width: 25%;
+    background-color: darkgray;
+    padding: 15px;
+}
+.content-area {
+    width: 50%;
+    background-color: ghostwhite;
+}
+.content-area iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.menu-table th {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 3px solid #7f7f80;
+    border-right: 3px solid rgb(27, 27, 197);
+    box-shadow: 2px 2px 4px rgba (0, 0, 0, 0.5);
+}
+.menu-table td {
+    padding: 3px 0;
+}
+.btn-3d {
+    display: block;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    border-top: 2px solid #ffeb3b;
+    border-left: 2px solid #ffeb3b;
+    border-right: 2px solid #c8b900;
+    border-bottom: 2px solid #c8b900;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.btn-3d:active {
+    border-top: 2px solid #c8b900;
+    border-left: 2px solid #c8b900;
+    border-right: 2px solid #ffeb3b;
+    border-bottom: 2px solid #ffeb3b;
+    box-shadow: none;
+}
+.sidebar-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+.right-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.right-links a {
+    color: blue;
+    text-decoration: underline;
+}
+.footer {
+    background-color: #0461af;
+    color: white;
+    padding: 8px 20px;
+    font-size: 10pt;
+}
+}
