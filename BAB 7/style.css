@@ -1,0 +1,49 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 450px;
+            margin: 20px auto;
+            border: 2px solid #020202;
+        }
+        .header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .header h2 {
+            margin: 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .form-body {
+            background-color: yellow;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .form-group label {
+            width: 130px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .form-group input[type="text"], 
+        .form-group select {
+            padding: 2px 4px;
+        }
+        .form-group .radio-group {
+            align-items: center;
+        }
+        .form-group button {
+            margin-left: 10px;
+        }
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border: 1px dashed #333;
+        }
