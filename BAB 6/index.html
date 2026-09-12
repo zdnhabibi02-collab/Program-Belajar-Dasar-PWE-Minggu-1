@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pemesanan Barang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="function.js"></script>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Form Pemesanan Barang</h2>
+        </div>
+        <div class="form-body">
+            <form id="form-pemesanan">
+                <div class="form-group">
+                    <label for="kode-barang">Kode Barang:</label>
+                    <input type="text" id="kode-barang">
+                    <button type="button" id="cek-kode" onclick="cariBarang()">Tebak</button>
+                </div>
+                <div class="form-group">
+                    <label for="nama-barang">Nama:</label>
+                    <input type="text" id="nama-barang" name="nama-barang" read-only>
+                </div>
+                <div class="form-group">
+                    <label for="harga-barang">Harga Barang:</label>
+                    <input type="text" id="harga-barang" name="harga-barang" read-only>
+                </div>
+                <div class="form-group">
+                    <label for="jumlah-barang">Jumlah Barang:</label>
+                    <input type="number" id="jumlah-barang" name="jumlah-barang">
+                    <button type="button" onclick="hitungTotal()">Hitung Total</button>
+                </div>
+                <div class="form-group">
+                    <label for="total-harga">Total Harga:</label>
+                    <input type="text" id="total-harga" name="total-harga" read-only>
+                </div>
+                <div class="form-group">
+                    <label for="diskon">Diskon:</label>
+                    <input type="text" id="diskon" name="diskon">
+                </div>  
+                <div class="form-group">
+                    <label for="total-bayar">Total Bayar:</label>
+                    <input type="text" id="total-bayar" name="total-bayar" read-only>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn-cetak" onclick="cetakStruk()">Cetak</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
