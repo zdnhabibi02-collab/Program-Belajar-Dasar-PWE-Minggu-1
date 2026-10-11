@@ -32,16 +32,19 @@ HTML
 CSS
 JavaScript
 PHP atau teknologi web lainnya jika diperlukan.
+
 🚀 Cara Menjalankan Program
 Pilih folder bab yang ingin dipelajari.
 Jalankan program sesuai dengan bahasa yang digunakan.
 Untuk file HTML sederhana, buka file index.html melalui browser.
 Untuk program PHP, gunakan server lokal yang sesuai.
+
 🎯 Tujuan
 Memahami dasar-dasar pemrograman web.
 Mempelajari pembuatan halaman web sederhana.
 Mempraktikkan materi melalui contoh program.
 Menyimpan dan mendokumentasikan hasil pembelajaran menggunakan GitHub.
+
 👨‍💻 Pengembang
 
 Nama: Muhammad Zaidan Habibi
