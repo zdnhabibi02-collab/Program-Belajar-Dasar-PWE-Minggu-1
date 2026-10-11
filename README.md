@@ -39,13 +39,8 @@ HTML
 CSS
 JavaScript
 PHP atau teknologi web lainnya jika diperlukan.
+
 🚀 Cara Menjalankan Program
-Clone repositori ini ke komputer:
-   git clone https://github.com/zdnhabibi02@collab/Program-Dasar-PWE-Minggu-1.git
-
-Masuk ke folder repositori:
-   cd Program-Dasar-PWE-Minggu-1
-
 Pilih folder bab yang ingin dipelajari.
 Jalankan program sesuai dengan teknologi yang digunakan. Untuk file HTML sederhana, buka file index.html melalui browser. Untuk program PHP, gunakan server lokal yang sesuai.
 🎯 Tujuan
